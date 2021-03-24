@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+/*---- CONTAINER */
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*--- NAVBAR */
+
+.navbar-nav-style {
+    margin: 50px auto 0;
+    font-size: 17px;
+}
+
+.brand-style {
+    margin: 7px auto 0;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.nav-link {
+    margin: 0 .7rem;
+}
+
+
+/*---- DIVIDER */
+
+.block-divider {
+    width: 250px;
+    height: 2px;
+    border: 0;
+    background-color: rgb(28, 123, 136);
+}
+
+@media (min-width: 567px) {
+    .navbar-brand {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar {
+        min-height: 90px;
+    }
+}  
+
+@media (max-width: 567px) {
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .navbar-nav-style {
+        margin-top: 30px;
+    }
+}
+
