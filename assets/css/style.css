@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+html, body {
+    overflow-x:hidden;
+}
+
 body {
     font-family: 'Roboto Mono', sans-serif;
 }
+
 
 /*---- CONTAINER */
 
@@ -20,21 +27,88 @@ body {
     margin: 7px auto 0;
     padding-top: 5px;
     font-size: 25px;
+    border-bottom: 1px solid #c8ffff;
+    color: #c8ffff;
+}
+
+.brand-style:hover {
+    color: #c8ffff;
 }
 
 .nav-link {
     margin: 0 .7rem;
 }
 
-
-/*---- DIVIDER */
-
-.block-divider {
-    width: 250px;
-    height: 2px;
-    border: 0;
-    background-color: rgb(28, 123, 136);
+.nav-item a {
+    color: #c8ffff;
 }
+
+.nav-item a:hover {
+    color: #50a0b4;
+}
+
+.navbar-light {
+    background-color: #c8ffff;
+}
+
+/*--- FOOTER */
+
+footer {
+    min-height: 120px;
+    margin-bottom: 0;
+}
+
+.footer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-center{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.content-social {
+    padding-top: 60px;
+    height: 50px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0; 
+}
+
+.social-links li a i {
+    padding: 0 50px;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #c8ffff;
+}
+
+.social-links li a i:hover {
+    color: #50a0b4;
+}
+
+.content-copyright {
+    padding-top: 27px;
+    color: #c8ffff;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+
+/*
+.container-social {
+    display: inline-block;
+    margin: 0 auto;
+
+}*/
+
+/* media query */
 
 @media (min-width: 567px) {
     .navbar-brand {
@@ -51,6 +125,7 @@ body {
 @media (max-width: 567px) {
     .navbar-brand {
         font-size: 16px;
+        border-bottom: none;
     }
 
     .navbar-nav-style {
