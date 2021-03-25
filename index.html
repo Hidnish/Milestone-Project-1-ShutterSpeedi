@@ -20,11 +20,12 @@
 <body>
     <!--NAV-->
     <div class="container-fluid nav-container">
-        <nav class="navbar navbar-dark navbar-expand-sm bg-dark scrolling-navbar">
+        <nav class="navbar navbar-expand-sm bg-seet fixed-top">
             <a href="#" class="navbar-brand brand-style d-block">
                 Shutter Speedi Photography</a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                <!-- navbar-dark required-->
+            <button class="navbar-toggler ml-auto navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>
 
@@ -44,10 +45,16 @@
         </nav>
     </div>
 
+    <!--Hero image-->
+    <section class="conrainer-fluid hero-container opaque-overlay">
+        <div class="opaque-overlay"></div>
+        
+    </section>
+
     <!--FOOTER-->
     <footer class="container-fluid bg-dark">
         <div class="row">
-            <div class="col-12 col-center content-social">
+            <div class="col-12 text-center content-social">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
@@ -69,7 +76,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-12 col-center content-copyright">
+            <div class="col-12 text-center content-copyright">
                 <p>Shutter Speedi Photography Ⓒ 2021</p>
             </div>
         </div>

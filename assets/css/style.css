@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* to allow the page to cover the entire screen width in mobile screen size */
+
 html, body {
     overflow-x:hidden;
 }
@@ -8,6 +10,11 @@ body {
     font-family: 'Roboto Mono', sans-serif;
 }
 
+/*--- BACKGROUND */
+
+.bg-seet {
+    background-color: rgba(0,0,0,0)
+}
 
 /*---- CONTAINER */
 
@@ -23,16 +30,18 @@ body {
     font-size: 17px;
 }
 
+/* taken from whisky */
+
 .brand-style {
     margin: 7px auto 0;
     padding-top: 5px;
     font-size: 25px;
     border-bottom: 1px solid #c8ffff;
-    color: #c8ffff;
+    color: #fafafa;
 }
 
 .brand-style:hover {
-    color: #c8ffff;
+    color: #fafafa;
 }
 
 .nav-link {
@@ -40,40 +49,48 @@ body {
 }
 
 .nav-item a {
-    color: #c8ffff;
+    color: #fafafa;
 }
 
 .nav-item a:hover {
-    color: #50a0b4;
+    color: #71bfd3;
 }
 
-.navbar-light {
-    background-color: #c8ffff;
+.navbar-toggler {
+    color: #fafafa;
 }
+
+/*--- HERO img */
+
+/* from whisky */
+
+.hero-container {
+    height: 100vh;
+
+    background: url(../images/hero.jpeg) no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
 
 /*--- FOOTER */
 
 footer {
     min-height: 120px;
     margin-bottom: 0;
-}
-
-.footer-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.col-center{
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+    border-top: 1px solid #292b2b;
 }
 
 .content-social {
-    padding-top: 60px;
+    padding-top: 30px;
     height: 50px;
 }
+
+/* To override right margin set by default in the social media logos: they were causing one of the logos to switch row in mobile screen mode */
 
 .list-inline-item:not(:last-child) {
     margin-right: 0; 
@@ -88,7 +105,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: #50a0b4;
+    color: #71bfd3;
 }
 
 .content-copyright {
