@@ -13,14 +13,22 @@ body {
 /*--- BACKGROUND */
 
 .bg-seet {
-    background-color: rgba(0,0,0,0)
+    background-color: rgba(0,0,0,0.3)
 }
 
 /*---- CONTAINER */
 
+/* to avoid default padding */
+
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+.content-container {
+    background-color: #9fd3d3;
+    padding: 100px 0;
+    border-top: 1px solid #292b2b;
 }
 
 /*--- NAVBAR */
@@ -36,7 +44,7 @@ body {
     margin: 7px auto 0;
     padding-top: 5px;
     font-size: 25px;
-    border-bottom: 1px solid #c8ffff;
+    border-bottom: 1px solid #9fd3d3;
     color: #fafafa;
 }
 
@@ -76,6 +84,25 @@ body {
     position: relative;
 }
 
+/*--- INFO SECTION*/
+
+.container-info {
+    padding: 0 8%;
+    text-align: center;
+}
+
+.info {
+    padding: 5%;
+    margin-bottom: 40px;
+    color: #343a40;
+}
+
+.info i {
+    margin-bottom: 40px;
+    font-size: 25px;
+    line-height: 40px;
+
+}
 
 /*--- FOOTER */
 
@@ -101,7 +128,7 @@ footer {
     font-size: 18px;
     line-height: 7px;
     text-align: center;
-    color: #c8ffff;
+    color: #9fd3d3;
 }
 
 .social-links li a i:hover {
@@ -110,7 +137,7 @@ footer {
 
 .content-copyright {
     padding-top: 27px;
-    color: #c8ffff;
+    color: #9fd3d3;
 }
 
 footer p {
@@ -148,5 +175,6 @@ footer p {
     .navbar-nav-style {
         margin-top: 30px;
     }
+
 }
 
