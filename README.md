@@ -1,45 +1,63 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# *Shutter Speedi Photography* #
 
-Welcome Hidnish,
+This is the official webpage of Shutter Speedi, a London-based photographer. The site is simple and straightforword and offers any visitor the opportunity to explore the professional background of the artist (in the **Home** page) and take a look at some of his best shots in the website's **Gallery** (accessible through the navbar).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+For those interested in booking a photoshoot or simply contacting the photographer, the website offers a **Contact** section (also accessible through the navbar) which provides both the artist's contact details and a form, meant to facilitate the process, which can be filled in by the users to get in touch the photographer directly from the website. 
 
-## Gitpod Reminders
+The business goals for the website:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* To build brand awareness 
+* To boost the artist's image and credibility through a clean and professional self-hosted website 
+* To provide examples of the artist's photographic style 
+* Drive sales by facilitating user-host communication in the contact section
 
-`python3 -m http.server`
+Customer goals for the webiste:
 
-A blue button should appear to click: *Make Public*,
+* Searching for high quality photoshoots 
+* Collaboration with the artist 
+* Intuitive communication process 
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# UX #
 
-A blue button should appear to click: *Make Public*,
+### Target client ###
 
-Another blue button should appear to click: *Open Browser*.
+**The target client for this business is:**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* English speaking
+* Mostly young (between 18 - 35)
+* Lives in England.
 
-## Updates Since The Instructional Video
+**Visitors would be searching for:**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* A photographer to hire for a photoshoot or to collaborate with for a project. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**This webiste is the best way to help them achieve their goal for the following reasons:**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* It is simply structurted and easy to navigate.
+* Provides the client with easy steps to follow to absorb essential information.
+* The amount of information provided is minimized to contain only the essential.
+* Provides a path to fullful the goal of the website, to get in touch with the artist. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Client stories:**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* As a new visitor to the website:
+  * I want to easily navigate the site.
+  * I want learn more about the artist and his credentials.
+  * I want view this artist's gallery to evaluate his skills.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* As a potential client or interested observer:
+  * I want to know whether other clients have been satisfied with his work and the service received.
+  * I want an easy to find contact info and an easy to fill in contact form, so I can get in touch with the artist.
+  * I want to follow the artist on social media and be updated about the artist's latest news. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Features #
 
---------
+# Technology Used #
 
-Happy coding!
+# Testing #
+
+# Deployment #
+
+# Credits #
