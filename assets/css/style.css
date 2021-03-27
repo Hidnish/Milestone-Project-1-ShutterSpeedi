@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Roboto:300');
 
 /* to allow the page to cover the entire screen width in mobile screen size */
 
@@ -9,6 +9,7 @@ html, body {
 body {
     font-family: 'Roboto Mono', sans-serif;
 }
+
 
 /*--- BACKGROUND */
 
@@ -26,12 +27,38 @@ body {
 }
 
 .content-container {
-    background-color: #9fd3d3;
-    padding: 100px 0;
+    padding: 160px 0 90px;
+}
+
+.content-container-sm {
+    padding: 70px 0 90px;
+}
+
+.container-aqua {
+    background-color: #9ed1be;
     border-top: 1px solid #292b2b;
 }
 
+.container-swamp {
+    background-color: #586458;
+}
+
+/*--- PAGE HEADER */
+
+.page-header {
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
 /*--- NAVBAR */
+
+.navbar-brand {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .navbar-nav-style {
     margin: 50px auto 0;
@@ -44,9 +71,11 @@ body {
     margin: 7px auto 0;
     padding-top: 5px;
     font-size: 25px;
-    border-bottom: 1px solid #9fd3d3;
+    border-bottom: 1px solid #9ed1be;
     color: #fafafa;
 }
+
+/*to override :hover color change inculded in navbar-brand*/
 
 .brand-style:hover {
     color: #fafafa;
@@ -61,7 +90,7 @@ body {
 }
 
 .nav-item a:hover {
-    color: #71bfd3;
+    color: #9ed1be;
 }
 
 .navbar-toggler {
@@ -104,9 +133,30 @@ body {
 
 }
 
+/*--- QUOTES */
+
+.quotes {
+    padding: 0 13vw;
+}
+
+.quote-text {
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    font-size: 18px;
+    
+}
+
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #9ed1be;
+    border-top: none;
+}
+
+
 /*--- FOOTER */
 
-footer {
+.footer {
     min-height: 120px;
     margin-bottom: 0;
     border-top: 1px solid #292b2b;
@@ -124,57 +174,39 @@ footer {
 }
 
 .social-links li a i {
-    padding: 0 50px;
+    padding: 0 5vw;
     font-size: 18px;
     line-height: 7px;
     text-align: center;
-    color: #9fd3d3;
+    color: #9ed1be;
 }
 
 .social-links li a i:hover {
-    color: #71bfd3;
+    color: #586458;
 }
 
 .content-copyright {
     padding-top: 27px;
-    color: #9fd3d3;
+    color: #9ed1be;
 }
 
-footer p {
-    font-size: 10px;
+.content-copyright p {
+    font-size: 11px;
 }
-
-
-/*
-.container-social {
-    display: inline-block;
-    margin: 0 auto;
-
-}*/
 
 /* media query */
 
-@media (min-width: 567px) {
-    .navbar-brand {
-        position: absolute;
-        top: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .navbar {
-        min-height: 90px;
-    }
-}  
 
 @media (max-width: 567px) {
     .navbar-brand {
-        font-size: 16px;
+        font-size: 15px;
         border-bottom: none;
+        left: 0;
+        transform: translateX(+7%)
     }
 
     .navbar-nav-style {
         margin-top: 30px;
     }
-
 }
 
