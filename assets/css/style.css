@@ -34,6 +34,13 @@ body {
     padding: 70px 0 90px;
 }
 
+/* prevent gallery from overlapping with navbar */
+
+.container-gallery {
+    padding: 15vh 0 1vh;
+    background-color: #292b2b;
+}
+
 .container-aqua {
     background-color: #9ed1be;
     border-top: 1px solid #292b2b;
@@ -194,6 +201,22 @@ body {
     font-size: 11px;
 }
 
+
+/*--- GALLERY*/
+
+.picture {
+    /*justify-content: center;
+    text-align: center;*/
+    padding: 2px;
+}
+
+/* to create squared pictures */
+
+.picture img {
+  object-fit: cover;
+  height: 33.33vw;
+}
+
 /* media query */
 
 
@@ -208,5 +231,11 @@ body {
     .navbar-nav-style {
         margin-top: 30px;
     }
+
+    .container-gallery {
+        padding-top: 10vh;
+}
+
+
 }
 
