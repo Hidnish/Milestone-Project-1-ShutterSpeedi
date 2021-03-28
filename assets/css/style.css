@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Roboto:300');
 
 /* to allow the page to cover the entire screen width in mobile screen size */
-
 html, body {
-    overflow-x:hidden;
+    /*overflow-x:hidden;*/
 }
 
 body {
     font-family: 'Roboto Mono', sans-serif;
 }
 
-
 /*--- BACKGROUND */
-
 .bg-seet {
     background-color: rgba(0,0,0,0.3)
 }
@@ -20,7 +17,6 @@ body {
 /*---- CONTAINER */
 
 /* to avoid default padding */
-
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -35,18 +31,20 @@ body {
 }
 
 /* prevent gallery from overlapping with navbar */
-
 .container-gallery {
     padding: 15vh 0 1vh;
+}
+
+.bg-gray {
     background-color: #292b2b;
 }
 
-.container-aqua {
+.bg-aqua {
     background-color: #9ed1be;
     border-top: 1px solid #292b2b;
 }
 
-.container-swamp {
+.bg-swamp {
     background-color: #586458;
 }
 
@@ -73,7 +71,6 @@ body {
 }
 
 /* taken from whisky */
-
 .brand-style {
     margin: 7px auto 0;
     padding-top: 5px;
@@ -83,7 +80,6 @@ body {
 }
 
 /*to override :hover color change inculded in navbar-brand*/
-
 .brand-style:hover {
     color: #fafafa;
 }
@@ -111,13 +107,21 @@ body {
 .hero-container {
     height: 100vh;
 
-    background: url(../images/hero.jpeg) no-repeat center; 
+    background: url(../images/hero.jpeg) center no-repeat ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
 
-    position: relative;
+.hero-container-2 {
+    height: 100vh;
+
+    background: url(../images/mirrors.jpg) no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*--- INFO SECTION*/
@@ -137,7 +141,6 @@ body {
     margin-bottom: 40px;
     font-size: 25px;
     line-height: 40px;
-
 }
 
 /*--- QUOTES */
@@ -175,7 +178,6 @@ body {
 }
 
 /* To override right margin set by default in the social media logos: they were causing one of the logos to switch row in mobile screen mode */
-
 .list-inline-item:not(:last-child) {
     margin-right: 0; 
 }
@@ -205,19 +207,57 @@ body {
 /*--- GALLERY*/
 
 .picture {
-    /*justify-content: center;
-    text-align: center;*/
     padding: 2px;
 }
 
-/* to create squared pictures */
 
+/* to crop col-6 pictures into a square frame and col-12 pictures in a 2:1 rectangular frame */
 .picture img {
   object-fit: cover;
   height: 33.33vw;
 }
 
-/* media query */
+/*---- CONTACT */
+
+.section-heading {
+    margin-bottom: 70px;
+}
+
+.contact-info-item {
+    margin-bottom: 30px;
+    display: block;
+    clear: both;
+    border-bottom: 1px solid #586458;
+}
+
+.contact-info-item .key, 
+.contact-info-item .value {
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.contact-info-item .key {
+    width: 30%;
+    margin: 0 20px 20px 0;
+    vertical-align: top;
+}
+
+.contact-info-item .key p {
+    font-weight: 700;
+}
+
+.contact-info-item .value {
+    width: 60%;
+    position: relative;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 30px;
+    float: none;
+}
+
+/* MEDIA QUERY */
 
 
 @media (max-width: 567px) {
@@ -234,8 +274,22 @@ body {
 
     .container-gallery {
         padding-top: 10vh;
+    }
+     
+    /* to keep pictures' size ratio in small screen viewports */
+    .picture img {
+        height: 50vw;
+    }
+
+    /* To prevent contact values from overflowing out of the screen in mobile screen size */
+    .contact-info-item .key, 
+    .contact-info-item .value {
+    display: block;
 }
 
 
 }
+ 
+
+
 
