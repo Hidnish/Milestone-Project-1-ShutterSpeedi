@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
@@ -47,29 +47,26 @@
     </div>
 
     <!--Contact info-->
-
-    <div class="container-fluid bg-aqua">
-        <section class="container-gallery">
+    <div class="container-fluid bg-swamp">
+        <div class="container-page">
             <div class="row">
-                <div class="col-md-4 section-column">
+                <section class="col-md-4 section-column font-off">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="section-heading text-center">
+                            <h3 class="section-heading text-center align-middle">
                                 Contact Info
                             </h3>
                         </div>
                     </div>
-                    <div class="contact-info-item">
+                    <div class="contact-item">
                         <div class="key">
                             <p>Address:</p>
                         </div>
                         <div class="value">
-                            <p>
-                                95 Guild Street, London UK
-                            </p>
+                            <p>95 Guild Street, London UK</p>
                         </div>
                     </div>
-                    <div class="contact-info-item">
+                    <div class="contact-item">
                         <div class="key">
                             <p>Phone:</p>
                         </div>
@@ -77,17 +74,43 @@
                             <p>555 844 634</p>
                         </div>
                     </div>
-                    <div class="contact-info-item">
+                    <div class="contact-item">
                         <div class="key">
                             <p>Email:</p>
                         </div>
                         <div class="value">
-                            <p>shutterspedy@photography.com</p>
+                            <p>shutterspeedi@photo.com</p>
                         </div>
                     </div>
+                </section>
+
+
+                <div class="col-md-8">
+                    <section class="container-fluid contact-img-container">
+                        <div class="col">
+                            <h3 class="section-heading text-center">Let's get in touch from here</h3>
+
+                            <div class="container-form">
+                                <form>
+                                    <input type="text" name="name" id="fullname" class="form-control mb-2 rounded" placeholder="Name"
+                                        required>
+                                    <input type="text" name="email" id="emailaddress" class="form-control mb-2 rounded"
+                                        placeholder="Email" required>
+                                    <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control mb-2 rounded"
+                                        placeholder="Any particular request?" required></textarea>
+                                    <div class="text-center">
+                                        <div class="col">
+                                            <button type="submit" class="btn btn-dark border-white rounded-pill">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
                 </div>
+
             </div>
-        </section>
+        </div>
     </div>
 
 

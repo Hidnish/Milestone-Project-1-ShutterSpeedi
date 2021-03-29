@@ -1,24 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Roboto:300');
 
-/* to allow the page to cover the entire screen width in mobile screen size */
+
 html, body {
-    /*overflow-x:hidden;*/
+    overflow-x: hidden;  /* allows the page to cover the entire screen width in mobile screen size */
 }
 
 body {
     font-family: 'Roboto Mono', sans-serif;
 }
 
-/*--- BACKGROUND */
-.bg-seet {
-    background-color: rgba(0,0,0,0.3)
-}
 
-/*---- CONTAINER */
+/*---- CONTAINER ----*/
 
-/* to avoid default padding */
+
 .container-fluid {
-    padding-left: 0;
+    padding-left: 0;   /* to avoid default padding */
     padding-right: 0;
 }
 
@@ -30,9 +26,19 @@ body {
     padding: 70px 0 90px;
 }
 
-/* prevent gallery from overlapping with navbar */
-.container-gallery {
-    padding: 15vh 0 1vh;
+.container-page {
+    padding-top: 107px;  /* prevent gallery from overlapping with navbar */
+}
+
+.container-form {
+    margin: 0 auto;
+    max-width: 60%;;
+}
+
+/*----- BACKGROUND -----*/
+
+.bg-seet {
+    background-color: rgba(0,0,0,0.3)
 }
 
 .bg-gray {
@@ -48,6 +54,14 @@ body {
     background-color: #586458;
 }
 
+.font-gray {
+    color: #343a40;
+}
+
+.font-off {
+    color: #fafafa;
+}
+
 /*--- PAGE HEADER */
 
 .page-header {
@@ -56,22 +70,24 @@ body {
     margin-bottom: 50px;
 }
 
-/*--- NAVBAR */
+/*---------------------------------------- NAVBAR */
 
-.navbar-brand {
+.navbar-brand {                   /* credit this one */
     position: absolute;
     top: 5px;
     left: 50%;
     transform: translateX(-50%);
+    font-weight: 300;
 }
 
 .navbar-nav-style {
     margin: 50px auto 0;
     font-size: 17px;
+    font-weight: 300;
 }
 
-/* taken from whisky */
-.brand-style {
+
+.brand-style {           
     margin: 7px auto 0;
     padding-top: 5px;
     font-size: 25px;
@@ -79,9 +95,9 @@ body {
     color: #fafafa;
 }
 
-/*to override :hover color change inculded in navbar-brand*/
+
 .brand-style:hover {
-    color: #fafafa;
+    color: #fafafa;  /*to override :hover change of color inculded in navbar-brand*/
 }
 
 .nav-link {
@@ -100,11 +116,10 @@ body {
     color: #fafafa;
 }
 
-/*--- HERO img */
+/*-------- HERO img -----*/
 
-/* from whisky */
 
-.hero-container {
+.hero-container {      /* from whisky */
     height: 100vh;
 
     background: url(../images/hero.jpeg) center no-repeat ; 
@@ -114,17 +129,7 @@ body {
     background-size: cover;
 }
 
-.hero-container-2 {
-    height: 100vh;
-
-    background: url(../images/mirrors.jpg) no-repeat center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-/*--- INFO SECTION*/
+/*-------- INFO SECTION -----*/
 
 .container-info {
     padding: 0 8%;
@@ -143,7 +148,7 @@ body {
     line-height: 40px;
 }
 
-/*--- QUOTES */
+/*-------- QUOTES ----- */
 
 .quotes {
     padding: 0 13vw;
@@ -160,11 +165,14 @@ body {
     display: block;
     font-size: 80%;
     color: #9ed1be;
-    border-top: none;
 }
 
+.quotes h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
 
-/*--- FOOTER */
+/*-------- FOOTER ----- */
 
 .footer {
     min-height: 120px;
@@ -177,21 +185,20 @@ body {
     height: 50px;
 }
 
-/* To override right margin set by default in the social media logos: they were causing one of the logos to switch row in mobile screen mode */
-.list-inline-item:not(:last-child) {
+.list-inline-item:not(:last-child) {  /* To override right margin set by default in the social media logos: they were causing one of the logos to switch row in mobile screen mode */
     margin-right: 0; 
 }
 
 .social-links li a i {
     padding: 0 5vw;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: #9ed1be;
 }
 
 .social-links li a i:hover {
-    color: #586458;
+    color: #fafafa;
 }
 
 .content-copyright {
@@ -201,63 +208,84 @@ body {
 
 .content-copyright p {
     font-size: 11px;
+    font-weight: 100;
 }
 
 
-/*--- GALLERY*/
+/*---------------------------------------- GALLERY */
 
 .picture {
     padding: 2px;
 }
 
-
-/* to crop col-6 pictures into a square frame and col-12 pictures in a 2:1 rectangular frame */
 .picture img {
-  object-fit: cover;
+  object-fit: cover;     /* to crop col-6 pictures into a square frame and col-12 pictures in a 2:1 rectangular frame */
   height: 33.33vw;
 }
 
-/*---- CONTACT */
+/*----------------------------------------- CONTACT */
+
+.section-column {
+    display: table-cell;
+    padding: 0 50px 30px 30px;
+    background-color: #586458;
+}
 
 .section-heading {
     margin-bottom: 70px;
+    font-weight: 300;
+    padding-top: 23vh;
 }
 
-.contact-info-item {
+.contact-item {
     margin-bottom: 30px;
-    display: block;
-    clear: both;
-    border-bottom: 1px solid #586458;
 }
 
-.contact-info-item .key, 
-.contact-info-item .value {
+.form-control {
+    border: 1px solid #586458;
+}
+
+.contact-item .key, 
+.contact-item .value {
     padding-right: 5px;
     display: inline-block;
 }
 
-.contact-info-item .key {
+.contact-item .key {
     width: 30%;
     margin: 0 20px 20px 0;
     vertical-align: top;
 }
 
-.contact-info-item .key p {
-    font-weight: 700;
+.contact-item .key p {
+    font-weight: 500;
 }
 
-.contact-info-item .value {
+.contact-item .value {
     width: 60%;
     position: relative;
+    font-weight: 100;
 }
 
-.section-column {
-    display: table-cell;
-    padding: 30px;
-    float: none;
+.contact-img-container {
+    background: url(../images/mirrors.jpeg) no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100%;
+    border-top-left-radius: 15px;
 }
 
-/* MEDIA QUERY */
+.contact-img-container h3 {
+    color: #fafafa;
+    text-shadow: 2px 2px 0 #000;
+}
+
+
+/*------ MEDIA QUERY ------*/
 
 
 @media (max-width: 567px) {
@@ -265,31 +293,35 @@ body {
         font-size: 15px;
         border-bottom: none;
         left: 0;
-        transform: translateX(+7%)
+        transform: translateX(+7%) /* To adjust the position of the nav-brand */
     }
 
     .navbar-nav-style {
         margin-top: 30px;
     }
 
-    .container-gallery {
-        padding-top: 10vh;
+    .container-page {
+        padding-top: 56px;
     }
      
-    /* to keep pictures' size ratio in small screen viewports */
     .picture img {
-        height: 50vw;
+        height: 50vw;        /* to keep pictures' size ratio in small screen viewports */
     }
 
-    /* To prevent contact values from overflowing out of the screen in mobile screen size */
-    .contact-info-item .key, 
-    .contact-info-item .value {
-    display: block;
-}
+    .container-form {
+    max-width: 80%;
+    }
 
-
+    .contact-item .key, 
+    .contact-item .value {
+    display: block;              /* To prevent contact.html's .values from overflowing the screen in mobile screen size */
+    }
 }
  
-
+@media (max-width: 766px) {
+    .contact-img-container {
+        border-top-right-radius: 15px;
+    }
+}
 
 
