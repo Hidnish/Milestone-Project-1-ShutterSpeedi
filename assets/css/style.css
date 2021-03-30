@@ -33,6 +33,7 @@ body {
 .container-form {
     margin: 0 auto;
     max-width: 60%;;
+    margin-bottom: 20%;
 }
 
 /*----- BACKGROUND -----*/
@@ -154,16 +155,21 @@ body {
     padding: 0 13vw;
 }
 
+.quote-frame {
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
 .quote-text {
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
     font-size: 18px;
-    
 }
 
 .blockquote-footer {
     display: block;
-    font-size: 80%;
+    font-size: 75%;
     color: #9ed1be;
 }
 
@@ -176,7 +182,6 @@ body {
 
 .footer {
     min-height: 120px;
-    margin-bottom: 0;
     border-top: 1px solid #292b2b;
 }
 
@@ -189,7 +194,7 @@ body {
     margin-right: 0; 
 }
 
-.social-links li a i {
+.social-links i {
     padding: 0 5vw;
     font-size: 20px;
     line-height: 7px;
@@ -197,7 +202,7 @@ body {
     color: #9ed1be;
 }
 
-.social-links li a i:hover {
+.social-links i:hover {
     color: #fafafa;
 }
 
@@ -274,10 +279,12 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    height: 100vh;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 15px;
 }
+
+
 
 .contact-img-container h3 {
     color: #fafafa;
