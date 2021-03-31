@@ -22,11 +22,11 @@ body {
 }
 
 .content-container {
-    padding: 160px 0 90px;
+    padding: 140px 0 90px;
 }
 
 .content-container-sm {
-    padding: 70px 0 90px;
+    padding: 90px 0 90px;
 }
 
 .container-page {
@@ -70,13 +70,6 @@ body {
     color: #fafafa;
 }
 
-/*--- PAGE HEADER */
-
-.page-header {
-    text-align: center;
-    color: #fafafa;
-    margin-bottom: 50px;
-}
 
 /*---------------------------------------- NAVBAR */
 
@@ -147,10 +140,22 @@ body {
     left: 50%;
     margin-left: -15px; /* half the size of the icon to center correctly */
 
-    top: 95%;
+    top: 90%;
 }
 
 /*-------- INFO SECTION -----*/
+
+/*--- Heading for info + quotes section---*/ 
+.home-heading {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.home-heading h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+/*------*/
 
 .container-info {
     padding: 0 8%;
@@ -180,11 +185,6 @@ body {
     border-radius: 5px;
     padding: 40px 20px 20px 20px; 
 } 
-
-.quotes h3 {
-    font-size: 25px;
-    font-weight: 100;
-}
 
 .quote-text {
     font-family: 'Roboto', sans-serif;
