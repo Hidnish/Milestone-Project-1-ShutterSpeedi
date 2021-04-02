@@ -17,7 +17,7 @@ body {
 
 
 .container-fluid {
-    padding-left: 0;   /* to avoid default padding */
+    padding-left: 0;   /* to avoid default padding from bootstrap */
     padding-right: 0;
 }
 
@@ -87,7 +87,6 @@ body {
     font-weight: 300;
 }
 
-
 .brand-style {           
     margin: 7px auto 0;
     padding-top: 5px;
@@ -95,7 +94,6 @@ body {
     border-bottom: 1px solid #9ed1be;
     color: #fafafa;
 }
-
 
 .brand-style:hover {
     color: #fafafa;  /*to override :hover change of color inculded in navbar-brand*/
@@ -139,7 +137,6 @@ body {
     position: absolute;
     left: 50%;
     margin-left: -15px; /* half the size of the icon to center correctly */
-
     top: 90%;
 }
 
@@ -155,6 +152,7 @@ body {
     font-size: 25px;
     font-weight: 300;
 }
+
 /*------*/
 
 .container-info {
@@ -244,7 +242,7 @@ body {
 }
 
 
-/*---------------------------------------- GALLERY */
+/*---------------------------------------- GALLERY  */
 
 .picture {
     padding: 2px;
@@ -339,12 +337,16 @@ body {
         margin-top: 30px;
     }
 
+    .hint i {
+        top: 85%;  /* To prevent the icon from disappearing under mobile screen bottom navbar */
+    }
+
     .container-page {
         padding-top: 56px;
     }
      
     .picture img {
-        height: 50vw;        /* to keep pictures' size ratio in small screen viewports */
+        height: 50vw;        /* To keep pictures' size ratio in small screen viewports */
     }
 
     .container-form {
@@ -353,7 +355,7 @@ body {
 
     .contact-item .key, 
     .contact-item .value {
-    display: block;              /* To prevent contact.html's .values from overflowing the screen in mobile screen size */
+    display: block;              /* To prevent contact.html's ".values" from overflowing the screen in mobile screen size */
     }
 }
  
