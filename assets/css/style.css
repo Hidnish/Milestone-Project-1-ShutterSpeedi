@@ -13,6 +13,10 @@ body {
     margin: 0 auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /*---- CONTAINER ----*/
 
 
@@ -73,7 +77,7 @@ body {
 
 /*---------------------------------------- NAVBAR */
 
-.navbar-brand {                   /* credit this one */
+.navbar-brand {                    
     position: absolute;
     top: 5px;
     left: 50%;
@@ -215,7 +219,7 @@ body {
     height: 50px;
 }
 
-.list-inline-item:not(:last-child) {  /* To override right margin set by default in the social media logos: they were causing one of the logos to switch row in mobile screen mode */
+.list-inline-item:not(:last-child) {  /* To override right-margin set by default in the social media logos: they were causing one of the logos to switch row in mobile screen mode */
     margin-right: 0; 
 }
 
@@ -249,7 +253,7 @@ body {
 }
 
 .picture img {
-  object-fit: cover;     /* to crop col-6 pictures into a square frame and col-12 pictures in a 2:1 rectangular frame */
+  object-fit: cover;     /* To crop col-6 pictures into a square frame and col-12 pictures in a 2:1 rectangular frame */
   height: 33.33vw;
 }
 
@@ -338,7 +342,7 @@ body {
     }
 
     .hint i {
-        top: 85%;  /* To prevent the icon from disappearing under mobile screen bottom navbar */
+        top: 85%;  /* To prevent the icon from disappearing in mobile screen sizes*/
     }
 
     .container-page {
@@ -346,7 +350,7 @@ body {
     }
      
     .picture img {
-        height: 50vw;        /* To keep pictures' size ratio unchanged in small screen viewports */
+        height: 50vw;      /* To keep pictures' size ratio unchanged in small screen viewports */
     }
 
     .container-form {
