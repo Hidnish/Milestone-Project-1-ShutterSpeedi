@@ -257,7 +257,7 @@ body {
 
 .section-column {
     display: table-cell;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 100px 50px;
     background-color: #586458;
 }
 
@@ -322,7 +322,7 @@ body {
 }
 
 
-/*------ MEDIA QUERY ------*/
+/*------ MEDIA QUERIES ------*/
 
 
 @media (max-width: 567px) {
@@ -346,7 +346,7 @@ body {
     }
      
     .picture img {
-        height: 50vw;        /* To keep pictures' size ratio in small screen viewports */
+        height: 50vw;        /* To keep pictures' size ratio unchanged in small screen viewports */
     }
 
     .container-form {
@@ -366,6 +366,13 @@ body {
 
     .dark-layer {
         border-top-right-radius: 15px;
+    }
+}
+
+@media (max-width: 280px) {
+    .navbar-brand {
+        font-size: 12px;
+        left: 0;
     }
 }
 
