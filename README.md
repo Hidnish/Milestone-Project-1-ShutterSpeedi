@@ -19,7 +19,6 @@ Customer goals for the webiste:
 
 
 ## UX ##
-
 ---
 
 * ### Target client ###
@@ -65,12 +64,12 @@ Customer goals for the webiste:
     * The Hero image in the home page was selected as it portrais the artist himself, is eye-catching and fits with the color scheme of the page. Same applies for the background image selected for the Contact page.
 
 ## Features ##
-
 ---
 
  * All Pages:
    * Responsive navbar with dropdown toggle for mobile screen sizes. The navbar contains: webistes' logo (which brings user back to Home page when clicked) and links to Home, Gallery and Contact page.
    * Footer featuring 3 social media links/icons and copyright information.
+   * All icons and navbar links change color when hovered over (except website logo and call to action arrow on the homepage hero image)
 
  * Homepage:
    * Fullscreen height hero-image with a Call to action icon (arrow) placed on the bottom linking to the artist's "About me" section.
@@ -86,7 +85,6 @@ Customer goals for the webiste:
    * Contact form which requests client name, email and provides a text-area to be filled in with any specific request by the user. At the bottom of the form: a submit button.
 
 ## Technology Used ##
-
 ---
 
 ### Languages Used ###
@@ -121,10 +119,9 @@ Customer goals for the webiste:
    * Used to create the wireframes during the website's design process.
 
 ## Testing ##
-
 ---
 
-* W3C Markup Validator / W3C CSS Validator
+* [W3C Markup Validator](https://validator.w3.org) / [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
   * Used to validate every page of the project to avoid syntax errors.
 
 * Google Lighthouse 
@@ -162,9 +159,49 @@ Customer goals for the webiste:
 * Family and firends (including the photographer) were asked to test the website on their devices to detect any bug or UX issues.
 
 ## Deployment ##
-
 ---
+
+### GitHub Pages ####
+
+* The project was deployed to GitHub Pages using the following steps:
+
+  1. Log in to GitHub and locate the GitHub Repository
+  2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu ("gear" icon).
+  3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+  4. Under "Source", click the dropdown called "None" and select "Master Branch".
+  5. The page will automatically refresh.
+  6. Scroll back down through the "Settings" page to locate the now published site link in the "GitHub Pages" section.
+
+* Forking the GitHub Repository
+
+  By forking the GitHub Repository you make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository. Forking requires the following steps:
+
+  1. Log in to GitHub and locate the GitHub Repository
+  2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+  3. You should now have a copy of the original repository in your GitHub account.
 
 ## Credits ##
-
 ---
+
+### Code ###
+
+* [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Used to structure the website with the "Grid system" and import JavaScript elements.
+* [Fancybox](https://cdnjs.com/libraries/fancybox): JavaScript library used to create a slideshow in the website's gallery.
+* [How to create Responsive LightBox Gallery with Bootstrap 4](https://www.youtube.com/watch?v=k-RtYiiB47E&ab_channel=webseotips): HTML code used to allow Fancybox gallery to function correctly.
+* [Whiskey Drop - Code Institute](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content): Used as a point of reference to build the webisite's Homepage. 
+* [Resume Project - Code Institute](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/13-styling-personal-info-items): Used as a point of reference to build the Website's Contact page.
+
+### Content ###
+
+* All content in the website was written by the Developer
+* The README.md structure was based on:
+  * [Code Institute Website's README.md ](https://github.com/Code-Institute-Solutions/SampleREADME)
+  * [AJGreaves' README.md](https://github.com/AJGreaves/portrait-artist)
+
+### Media ###
+
+* All the pictures from the webiste were provided by [Giacomo Spedicato](https://www.facebook.com/giacomo.spedicato)
+
+### Acknowledgement ###
+
+* My mentor: Oluwafemi Medale, for his support and feedback
