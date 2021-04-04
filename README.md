@@ -1,6 +1,6 @@
 # **Shutter Speedi Photography** #
 
-This is the official webpage of Shutter Speedi (Giacomo Spedicato), a London-based photographer. The site is simple, straightforword and offers any visitor the opportunity to explore the artist's professional background (in the **Home** page) and take a look at some of his best shots in the website's **Gallery** (accessible through the navbar).
+This is the official webpage of Shutter Speedi (Giacomo Spedicato), a London-based photographer. The site is simple, straightforward and offers any visitor the opportunity to explore the artist's professional background (in the **Home** page) and take a look at some of his best shots in the website's **Gallery** (accessible through the navbar).
 
 For those interested in booking a photoshoot or simply contacting the photographer, the website offers a **Contact** section (also accessible through the navbar) which provides both the artist's contact details and a form, meant to facilitate the process, which can be filled in by the users to get in touch the photographer directly from the website. 
 
@@ -11,7 +11,7 @@ The business goals for the website:
 * To provide examples of the artist's style of photography.
 * Attract clients by facilitating user-provider communication in the contact section.
 
-Customer goals for the webiste:
+Customer goals for the website:
 
 * To find a photographer to hire for high quality photoshoots. 
 * To collaborate with the artist. 
@@ -19,7 +19,7 @@ Customer goals for the webiste:
 
 
 ## UX ##
----
+
 
 * ### Target client ###
 
@@ -33,12 +33,12 @@ Customer goals for the webiste:
 
      * A photographer to hire for a photoshoot or to collaborate with for a project.
 
-   * **This webiste is the best way to help them achieve their goal for the following reasons:**
+   * **This website is the best way to help them achieve their goal for the following reasons:**
 
-     1. It is simply structurted and easy to navigate.
+     1. It is simply structured and easy to navigate.
      1. Provides the client with easy steps to follow to absorb essential information.
      1. The amount of information provided is minimized to contain only the essential.
-     1. Provides a path to fullful the goal of the website: getting in touch with the artist.
+     1. Provides a path to fulfil the goal of the website: getting in touch with the artist.
 
 * ### User stories ###
 
@@ -61,13 +61,13 @@ Customer goals for the webiste:
     * The "Roboto Mono" font is the main font used throughout the whole website with "Sans Serif" as the fallback font. "Roboto Mono" has been selected as it fits with the retro style of the artist's photographs and the general look of the website. "Roboto" has also been used in the Quotes section in the Homepage.
 
   * **Imagery**
-    * The Hero image in the home page was selected as it portrais the artist himself, is eye-catching and fits with the color scheme of the page. Same applies for the background image selected for the Contact page.
+    * The Hero image in the home page was selected as it portraits the artist himself, is eye-catching and fits with the color scheme of the page. Same applies for the background image selected for the Contact page.
 
 ## Features ##
----
+
 
  * All Pages:
-   * Responsive navbar with dropdown toggle for mobile screen sizes. The navbar contains: webistes' logo (which brings user back to Home page when clicked) and links to Home, Gallery and Contact page.
+   * Responsive navbar with dropdown toggle for mobile screen sizes. The navbar contains: websites' logo (which brings user back to Home page when clicked) and links to Home, Gallery and Contact page.
    * Footer featuring 3 social media links/icons and copyright information.
    * All icons and navbar links change color when hovered over (except website logo and call to action arrow on the homepage hero image)
 
@@ -85,7 +85,7 @@ Customer goals for the webiste:
    * Contact form which requests client name, email and provides a text-area to be filled in with any specific request by the user. At the bottom of the form: a submit button.
 
 ## Technology Used ##
----
+
 
 ### Languages Used ###
 
@@ -94,32 +94,32 @@ Customer goals for the webiste:
 
 ### Frameworks, Libraries & Programs Used ###
 
-1. Bootstrap 4.6.0
+1. [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
    * Used to assist with the responsiveness and styling of the website.
 
-2. Google Fonts 
+2. [Google Fonts](https://fonts.google.com/)
    * Used to import the 'Roboto Mono' and 'Roboto' font into the style.css file which is used on all pages throughout the project.
 
-3. Font Awesome 
+3. [Font Awesome](https://fontawesome.com/)
    * Used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-4. Fancybox
+4. [Fancybox](https://cdnjs.com/libraries/fancybox)
    * Used for a gallery modal popup to slide through gallery images.
 
-5. jQuery
+5. [jQuery]((https://getbootstrap.com/docs/4.6/getting-started/introduction/))
    * jQuery came with Bootstrap to make the navbar responsive. Also required for Fancybox gallery modal to function.
 
-6. Git 
+6. [Git](https://www.gitpod.io/)
    * Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-7. GitHub
+7. [GitHub](https://github.com/)
    * Used to store the projects code pushed from Git.
 
-8. Balsamiq
+8. [Balsamiq](https://balsamiq.com/)
    * Used to create the wireframes during the website's design process.
 
 ## Testing ##
----
+
 
 * [W3C Markup Validator](https://validator.w3.org) / [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
   * Used to validate every page of the project to avoid syntax errors.
@@ -139,14 +139,14 @@ Customer goals for the webiste:
             * Photographic style and equipment,
             * Educational accreditations.
       * I want view this artist's gallery to evaluate his skills
-        1. A clearly labelled Gallery page is provded in the navigation on every page.
+        1. A clearly labelled Gallery page is provided in the navigation on every page.
         2. The artist's pictures are displayed in a simple and appealing way in the gallery, giving visitors the possibility of opening, zooming and sliding through different pictures.
 
  * As a potential client or interested observer:
       * I want to know whether other clients have been satisfied with his work and the service received
         1.  Quotes by some of the artist's followers on social media are displayed under the "About me" section, to further increase the photographer's trustworthiness.
       * I want to be able to easily get in touch with the artist
-        1. A clearly labelled Contact page is provded in the navigation on every page.
+        1. A clearly labelled Contact page is provided in the navigation on every page.
         2. The contact page provides info such as the artist's: address, phone number and email.
         3. The contact page is also featured with a contact form, to get in touch with him directly from the website.
       * I want to follow the artist on social media and be updated about any news
@@ -155,11 +155,16 @@ Customer goals for the webiste:
 ### Further testing ###
 
 * The Website was tested on Google Chrome, Safari, Opera, Firefox and Internet Explorer browsers.
-* The Website was tested on a variery of screen sizes using Google Developer Tools and actual devices, such as: Desktop, Laptop, iPhone X, iPhone 8, iPhone 6s, iPad and Samsung Galaxy S III.
-* Family and firends (including the photographer) were asked to test the website on their devices to detect any bug or UX issues.
+* The Website was tested on a variety of screen sizes using Google Developer Tools and actual devices, such as: Desktop, Laptop, iPhone X, iPhone 8, iPhone 6s, iPad and Samsung Galaxy S III.
+* Family and friends (including the photographer) were asked to test the website on their devices to detect any bug or UX issues.
+
+### Bugs Solved ###
+
+* The attribute "html, body {overflow-x: hidden;}" to allow the webiste to cover the entire viewport width for mobile screen sizes.
+* Metadata "<meta name="format-detection" content="telephone=no">" was added to contact.html to remove default blue hyperlink color (creating visibility issues) from phone number when viewed on iPhone.
 
 ## Deployment ##
----
+
 
 ### GitHub Pages ####
 
@@ -181,15 +186,16 @@ Customer goals for the webiste:
   3. You should now have a copy of the original repository in your GitHub account.
 
 ## Credits ##
----
+
 
 ### Code ###
 
 * [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Used to structure the website with the "Grid system" and import JavaScript elements.
 * [Fancybox](https://cdnjs.com/libraries/fancybox): JavaScript library used to create a slideshow in the website's gallery.
 * [How to create Responsive LightBox Gallery with Bootstrap 4](https://www.youtube.com/watch?v=k-RtYiiB47E&ab_channel=webseotips): HTML code used to allow Fancybox gallery to function correctly.
-* [Whiskey Drop - Code Institute](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content): Used as a point of reference to build the webisite's Homepage. 
+* [Whiskey Drop - Code Institute](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content): Used as a point of reference to build the website's Homepage. 
 * [Resume Project - Code Institute](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/13-styling-personal-info-items): Used as a point of reference to build the Website's Contact page.
+* [Stack Overflow](https://stackoverflow.com/): Used as source for HTML and CSS code used solve certain issues thoughout the project (credits provided beside each specific line of code).
 
 ### Content ###
 
@@ -200,7 +206,7 @@ Customer goals for the webiste:
 
 ### Media ###
 
-* All the pictures from the webiste were provided by [Giacomo Spedicato](https://www.facebook.com/giacomo.spedicato)
+* All the pictures from the website were provided by [Giacomo Spedicato](https://www.facebook.com/giacomo.spedicato)
 
 ### Acknowledgement ###
 
