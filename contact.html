@@ -5,11 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <!--removes default blue hyperlink color from phone number when viewed on iPhone-->
 
     <title>Shutter Speedy Photography</title>
 
     <!--Bootstrap stylesheet-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        type="text/css">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" type="text/css">
     <!--CSS-->
@@ -52,11 +55,11 @@
 
                 <section class="col-md-4 section-column font-off">
                     <div class="row">
-                        <div class="col-12">
+                        <header class="col-12">
                             <h3 class="section-heading text-center">
                                 Contact Info
                             </h3>
-                        </div>
+                        </header>
                     </div>
                     <div class="contact-item">
                         <div class="key">
@@ -87,7 +90,9 @@
                 <div class="col-md-8">
                     <section class="container-fluid contact-img-container">
                         <div class="dark-layer">
-                            <h3 class="section-heading text-center">Let's get in touch from here</h3>
+                            <header>
+                                <h3 class="section-heading text-center">Let's get in touch from here</h3>
+                            </header>
 
                             <div class="container-form">
                                 <form>
@@ -96,7 +101,8 @@
                                     <input type="text" name="email" id="emailaddress" class="form-control mb-2 rounded"
                                         placeholder="Email" required>
                                     <textarea rows="6" name="userMessage" id="userMessage"
-                                        class="form-control mb-2 rounded" placeholder="Interested in a photoshoot or working with me? Tell me more about it."
+                                        class="form-control mb-2 rounded"
+                                        placeholder="Interested in a photoshoot or working with me? Tell me more about it."
                                         required></textarea>
                                     <div class="text-center">
                                         <div class="col">
