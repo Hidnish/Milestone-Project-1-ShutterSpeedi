@@ -2,7 +2,7 @@
 
 
 html, body {
-    overflow-x: hidden;  /* allows the page to cover the entire screen width in mobile screen size */
+    overflow-x: hidden;  /* Allows page to cover the entire screen width in mobile screens. Source: https://stackoverflow.com/questions/19148836/my-site-shows-white-space-on-right-in-mobile-chrome-but-not-desktop-chrome */
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 
 .container-fluid {
-    padding-left: 0;   /* to avoid default padding from bootstrap */
+    padding-left: 0;   /* To avoid default padding from bootstrap */
     padding-right: 0;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .container-page {
-    padding-top: 107px;  /* prevent gallery from overlapping with navbar */
+    padding-top: 107px;  /* Prevents gallery from overlapping with navbar */
 }
 
 .container-form {
@@ -77,7 +77,7 @@ body {
 
 /*---------------------------------------- NAVBAR */
 
-.navbar-brand {                    
+.navbar-brand {         /* Allows brand name to center horizontally in the navbar. Source: https://stackoverflow.com/questions/55077119/how-move-nav-element-under-navbar-brand-in-my-navbar */
     position: absolute;
     top: 5px;
     left: 50%;
@@ -100,7 +100,7 @@ body {
 }
 
 .brand-style:hover {
-    color: #fafafa;  /*to override :hover change of color inculded in navbar-brand*/
+    color: #fafafa;  /* To override default :hover change of color from bootstraps' navbar-brand class */
 }
 
 .nav-link {
@@ -122,7 +122,7 @@ body {
 /*-------- HERO img -----*/
 
 
-.hero-container {      /* from whisky */
+.hero-container {    
     height: 100vh;
 
     background: url(../images/hero.jpeg) center no-repeat ; 
@@ -140,7 +140,7 @@ body {
 
     position: absolute;
     left: 50%;
-    margin-left: -15px; /* half the size of the icon to center correctly */
+    margin-left: -15px;       /* Half the the icon font size to center correctly */
     top: 90%;
 }
 
@@ -219,7 +219,7 @@ body {
     height: 50px;
 }
 
-.list-inline-item:not(:last-child) {  /* To override right-margin set by default in the social media logos: they were causing one of the logos to switch row in mobile screen mode */
+.list-inline-item:not(:last-child) {  /* To override right-margin set by default in social media logos: they were causing one of the logos to switch row in mobile screen mode */
     margin-right: 0; 
 }
 
@@ -253,7 +253,7 @@ body {
 }
 
 .picture img {
-  object-fit: cover;     /* To crop col-6 pictures into a square frame and col-12 pictures in a 2:1 rectangular frame */
+  object-fit: cover;     /* To crop col-6 pictures into a squared frame and col-12 pictures in a 2:1 rectangular frame */
   height: 33.33vw;
 }
 
@@ -311,10 +311,8 @@ body {
     border-top-left-radius: 15px;
 }
 
-.dark-layer {
+.dark-layer {                               /* Required to increase contrast between background image and text */
     background-color: rgba(0,0,0,0.4);
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -334,7 +332,7 @@ body {
         font-size: 15px;
         border-bottom: none;
         left: 0;
-        transform: translateX(+7%) /* To adjust the position of the nav-brand */
+        transform: translateX(+7%) /* To prevent navbar brand to disappear on the left side of the screen in mobile devices */
     }
 
     .navbar-nav-style {
@@ -342,7 +340,7 @@ body {
     }
 
     .hint i {
-        top: 85%;  /* To prevent the icon from disappearing in mobile screen sizes*/
+        top: 85%;  /* To prevent the icon from disappearing in mobile screen sizes */
     }
 
     .container-page {
@@ -359,7 +357,7 @@ body {
 
     .contact-item .key, 
     .contact-item .value {
-    display: block;              /* To prevent contact.html's ".values" from overflowing the screen in mobile screen size */
+    display: block;              
     }
 }
  
