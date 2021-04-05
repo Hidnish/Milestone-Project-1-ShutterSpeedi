@@ -1,5 +1,7 @@
 # **Shutter Speedi Photography** #
 
+[View deployed site here](https://hidnish.github.io/Milestone-Project-1-/)
+
 This is the official webpage of Shutter Speedi (Giacomo Spedicato), a London-based photographer. The site is simple, straightforward and offers any visitor the opportunity to explore the artist's professional background (in the **Home** page) and take a look at some of his best shots in the website's **Gallery** (accessible through the navbar).
 
 For those interested in booking a photoshoot or simply contacting the photographer, the website offers a **Contact** section (also accessible through the navbar) which provides both the artist's contact details and a form, meant to facilitate the process, which can be filled in by the users to get in touch the photographer directly from the website. 
