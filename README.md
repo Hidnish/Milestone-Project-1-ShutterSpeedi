@@ -20,11 +20,11 @@ Customer goals for the website:
 * To collaborate with the artist. 
 * To be able to easily get in touch with the website's host.
 
-## Wireframes ##
+### Wireframes ###
 
 Wireframes can be found by following the steps: 
-* open the 'assets' folder from the repository
-* inside the 'assets' folder, open the 'readme' folder 
+* Open the 'assets' folder from the repository
+* Inside the 'assets' folder, open the 'readme' folder 
 
 ## UX ##
 
@@ -192,6 +192,17 @@ Wireframes can be found by following the steps:
   1. Log in to GitHub and locate the GitHub Repository
   2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
   3. You should now have a copy of the original repository in your GitHub account.
+
+* Making a local clone of the GitHub Repository
+
+  1. On GitHub, navigate to the main page of the repository.
+  2. Above the list of files, click the green 'Code' button.
+  3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+  4. Open Terminal
+  5. Change the current working directory to the location where you want the cloned directory to be made.
+  6. Type 'git clone', and then paste the URL you copied in Step 3: (https://github.com/Hidnish/Milestone-Project-1-.git).
+  7. Press Enter. Your local clone will be created.
+
 
 ## Credits ##
 
