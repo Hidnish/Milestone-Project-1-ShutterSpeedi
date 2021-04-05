@@ -20,6 +20,10 @@ Customer goals for the website:
 * To collaborate with the artist. 
 * To be able to easily get in touch with the website's host.
 
+## Wireframes ##
+
+[Link to the website's wireframes](assets/readme/wireframe.bmpr)
+
 
 ## UX ##
 
