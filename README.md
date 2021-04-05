@@ -22,8 +22,9 @@ Customer goals for the website:
 
 ## Wireframes ##
 
-[Link to the website's wireframes](assets/readme/wireframe.bmpr)
-
+Wireframes can be found by following the steps: 
+* open the 'assets' folder from the repository
+* inside the 'assets' folder, open the 'readme' folder 
 
 ## UX ##
 
