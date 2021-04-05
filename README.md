@@ -1,4 +1,5 @@
 # **Shutter Speedi Photography** #
+## Photography website ##
 
 [View deployed site here](https://hidnish.github.io/Milestone-Project-1-/)
 
@@ -162,7 +163,7 @@ Customer goals for the website:
 
 ### Bugs Solved ###
 
-* The attribute "html, body {overflow-x: hidden;}" to allow the webiste to cover the entire viewport width for mobile screen sizes.
+* The attribute "html, body {overflow-x: hidden;}" used to allow the webiste to cover the entire viewport width for mobile screen sizes.
 * Metadata "<meta name="format-detection" content="telephone=no">" was added to contact.html to remove default blue hyperlink color (creating visibility issues) from phone number when viewed on iPhone.
 
 ## Deployment ##
@@ -197,7 +198,7 @@ Customer goals for the website:
 * [How to create Responsive LightBox Gallery with Bootstrap 4](https://www.youtube.com/watch?v=k-RtYiiB47E&ab_channel=webseotips): HTML code used to allow Fancybox gallery to function correctly.
 * [Whiskey Drop - Code Institute](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content): Used as a point of reference to build the website's Homepage. 
 * [Resume Project - Code Institute](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/13-styling-personal-info-items): Used as a point of reference to build the Website's Contact page.
-* [Stack Overflow](https://stackoverflow.com/): Used as source for HTML and CSS code used solve certain issues thoughout the project (credits provided beside each specific line of code).
+* [Stack Overflow](https://stackoverflow.com/): Used as source for HTML and CSS code to solve certain issues thoughout the project (credits provided beside each specific line of code).
 
 ### Content ###
 
