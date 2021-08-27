@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Roboto:300|Hina+Mincho:400');
 
 
 html, body {
@@ -172,6 +172,7 @@ body {
     padding: 5%;
     margin-bottom: 40px;
     color: #343a40;
+    font-family: 'Roboto', sans-serif;
 }
 
 .info i {
