@@ -57,13 +57,17 @@ body {
     background-color: #292b2b;
 }
 
+.bg-black {
+    background-color: rgb(26, 26, 26);
+}
+
 .bg-aqua {
-    background-color: #9ed1be;
+    background-color: #9fb3a8;
     border-top: 1px solid #292b2b;
 }
 
 .bg-swamp {
-    background-color: #586458;
+    background-color: #3c443c;
 }
 
 .font-gray {
@@ -262,7 +266,6 @@ body {
 .section-column {
     display: table-cell;
     padding: 0 50px 100px 50px;
-    background-color: #586458;
 }
 
 .section-heading {
