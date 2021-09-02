@@ -312,14 +312,17 @@ body {
 
     height: 100%;
     width: 100%;
-    border-top-left-radius: 15px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border: 1px solid #343a40;
 }
 
 .dark-layer {                               /* Required to increase contrast between background image and text */
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
     width: 100%;
     height: 100%;
-    border-top-left-radius: 15px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
 } 
 
 .contact-img-container h3 {
@@ -367,11 +370,13 @@ body {
  
 @media (max-width: 766px) {
     .contact-img-container {
-        border-top-right-radius: 15px;
+        border-top-right-radius: 45px;
+        border-bottom-left-radius: 0;
     }
 
     .dark-layer {
-        border-top-right-radius: 15px;
+        border-top-right-radius: 45px;
+        border-bottom-left-radius: 0;
     }
 }
 
